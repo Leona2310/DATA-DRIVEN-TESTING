@@ -7,4 +7,7 @@ In this implementation, Selenium WebDriver was used to automate a login workflow
 Through this task, practical experience was gained in Selenium automation, Python scripting, handling external data sources, and implementing scalable testing strategies commonly used in real-world Quality Assurance environments. The project highlights key testing concepts such as test case iteration, external data management, automated browser interaction, result logging, and validation mechanisms. By adopting the data-driven testing approach, the project demonstrates how automation frameworks can efficiently validate numerous input combinations without altering core logic, making it a fundamental and widely adopted practice in modern software testing and continuous integration workflows.
 
 OUTPUT :
+
 <img width="1320" height="990" alt="Image" src="https://github.com/user-attachments/assets/dbcca4e5-ad98-44de-8b2c-60c7b7ec87fe" />
+
+
