@@ -1,17 +1,7 @@
-DATA-DRIVEN TESTING USING SELENIUM (CODTECH TASK)
+DATA - DRIVEN - TESTING
 
-SETUP INSTRUCTIONS:
+This project demonstrates the implementation of Data-Driven Testing using Selenium WebDriver with Python, completed as part of the CODTECH internship task. The primary objective of this assignment was to automate test execution using multiple input datasets stored in an external CSV file and dynamically validate application behavior. Instead of manually executing the same test repeatedly with different inputs, this approach enables automated iteration over various data combinations, improving efficiency, accuracy, and scalability in the testing process. The project showcases how separating test data from test logic allows the same automation script to be reused for multiple scenarios without modifying the core code structure.
 
-1. Install Python packages:
-   pip install selenium pandas
+In this implementation, Selenium WebDriver was used to automate a login workflow on a sample web application (SauceDemo). The login credentials, including usernames and passwords, were stored in a CSV file rather than being hardcoded into the script. Using the pandas library, the script reads each row from the CSV file and executes the login test sequentially for each dataset. For every iteration, the script launches the Chrome browser, navigates to the login page, enters the corresponding credentials, attempts authentication, verifies whether the login was successful by checking the resulting URL, logs the outcome as PASS or FAIL in a results file, and then clears session data before proceeding to the next test case. This process ensures structured execution and proper result tracking for multiple test scenarios.
 
-2. Download ChromeDriver matching your Chrome version:
-   https://chromedriver.chromium.org/downloads
-
-3. Place chromedriver.exe inside this folder.
-
-4. Run the script:
-   python data_driven_test.py
-
-OUTPUT:
-results.txt will contain PASS / FAIL results.
+Through this task, practical experience was gained in Selenium automation, Python scripting, handling external data sources, and implementing scalable testing strategies commonly used in real-world Quality Assurance environments. The project highlights key testing concepts such as test case iteration, external data management, automated browser interaction, result logging, and validation mechanisms. By adopting the data-driven testing approach, the project demonstrates how automation frameworks can efficiently validate numerous input combinations without altering core logic, making it a fundamental and widely adopted practice in modern software testing and continuous integration workflows.
